@@ -32,6 +32,6 @@ jobs:
           application_name: fullstack-docker-app
           environment_name: Fullstack-docker-app-env
           existing_bucket_name: elasticbeanstalk-us-east-1-851725596783
-          region: ap-northeast-2
+          region: us-east-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
